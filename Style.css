@@ -79,24 +79,24 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .btn {
-    background: var(--darkGreen);
+    background: #2E4053;
     border: none;
     display: block;
     width: 150px;
     text-align: center;
-    color: var(--darkGreen);
+    color: #2E4053;
     text-transform: uppercase;
     background: transparent;
     font-size: 15px;
     padding: 12px;
-    border: 2px solid var(--darkGreen);
+    border: 2px solid #2E4053;
     border-radius: 25px;
     margin: 15px 0;
     transition: var(--transition);
 }
 
 .btn:hover {
-    background: var(--darkGreen);
+    background: #2E4053;
     color: #fff;  
 }
 
@@ -547,7 +547,7 @@ blockquote span {
     height: 500px;
     margin: 10px;
     border-radius: 50px;
-    background: url(Images/Wedding1.jpg);
+    background: url(Img/Jewelry2.jpeg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -555,25 +555,19 @@ blockquote span {
 }
 
 .img-box:nth-child(2) {
-    background: url(Images/Wedding2.jpg);
+    background: url(Img/Jewelry4.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(3) {
-    background: url(Images/Wedding3.jpg);
+    background: url(Img/Jewelry3.jpeg);
     background-size: cover;
     background-position: center;
 }
 
 .img-box:nth-child(4) {
-    background: url(Images/Wedding4.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
-.img-box:nth-child(5) {
-    background: url(Images/Wedding5.jpg);
+    background: url(Img/Jewelry1.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -646,7 +640,7 @@ blockquote span {
 }
 
 .badge {
-    background: var(--lightGreen);
+    background: var(--darkGrey);
     width: 140px;
     border-radius: 5px;
     padding: 5px 0;
