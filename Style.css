@@ -970,6 +970,12 @@ hr {
     }
 }
 
+@media(max-width: 450px){
+    .nav-section{
+        height: 300px;
+    }
+}
+
 @media(min-width: 576px) {
     .title h2 {
         font-size: 4rem;
@@ -1062,6 +1068,7 @@ hr {
     .nav-section{
         display: flex;
         justify-content: space-between;
+
     }
     .navBtn {
         display: none;
